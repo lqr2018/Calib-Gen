@@ -57,7 +57,7 @@ if __name__ == "__main__":
         "--save_dir", "evaluation_outputs",
         "--strength", "2.0",
         "--base_model_string", "THUDM/chatglm3-6b",
-        "--top_k", "0",
+        "--top_k", "100",
         "--top_p", "0.8",
     ]
 

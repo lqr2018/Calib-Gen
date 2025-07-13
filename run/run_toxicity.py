@@ -56,7 +56,7 @@ if __name__ == "__main__":
         "--prefix_setting", "pos",
         "--strength", "-1.0",
         "--base_model_string", "THUDM/chatglm3-6b",
-        "--top_k", "0",
+        "--top_k", "100",
         "--top_p", "0.8",
     ]
 
@@ -78,8 +78,8 @@ if __name__ == "__main__":
         # {"prompts_setting": "toxicity_toxic_small"},
         # {"prompts_setting": "toxicity_toxic"},
 
-        {"prompts_setting": "toxicity_toxic_small_cao"},
-        # {"prompts_setting": "toxicity_toxic_cao"},
+        # {"prompts_setting": "toxicity_toxic_small_cao"},
+        {"prompts_setting": "toxicity_toxic_cao"},
     ]
 
     executor = CommandExecutor(base_command, variations1, variations2, max_concurrent_processes=1)

@@ -33,7 +33,7 @@ def process_prompt(prompt,
                    base_model_string,
                    fudge_model_string,
                    display):
-    original_text = json.loads(prompt)['prompt']["origin_text"] if method == "pregen" else None
+    original_text = json.loads(prompt)['prompt']["origin_text"] if method == "calib" else None
     prompt = json.loads(prompt)['prompt']["text"]
     if len(prompt) < 3:
         return None

@@ -7,10 +7,8 @@ if __name__ == '__main__':
 
     save_dir = "evaluation_outputs"
     strength = 2.0
-    top_k = 0
+    top_k = 100
     top_p = 0.8
-    gamma = 0.0
-    thresh = 0
 
 
     variations1 = [
@@ -35,10 +33,8 @@ if __name__ == '__main__':
                                      method=variation1["method"],
                                      prefix_setting=variation2["prefix_setting"],
                                      strength=strength,
-                                     gamma=gamma,
                                      top_k=top_k,
                                      top_p=top_p,
-                                     thresh=thresh
                                      )
 
             command = [

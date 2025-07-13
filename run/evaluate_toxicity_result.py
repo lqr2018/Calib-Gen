@@ -8,7 +8,7 @@ if __name__ == '__main__':
     save_dir = "evaluation_outputs"
     prefix_setting = "pos"
     strength = -1.0
-    top_k = 0
+    top_k = 100
     top_p = 0.8
 
     variations1 = [
@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
     variations2 = [
         # {"prompts_setting": "toxicity_random_small"},
-        {"prompts_setting": "toxicity_random"},
+        # {"prompts_setting": "toxicity_random"},
 
         # {"prompts_setting": "toxicity_random_small_cao"},
         # {"prompts_setting": "toxicity_random_cao"},

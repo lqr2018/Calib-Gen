@@ -61,16 +61,14 @@ if __name__ == "__main__":
     strength = -1.0
     top_k = 100
     top_p = 0.8
-    gamma = 0.0
-    thresh = 0
     method = "calib"
 
     variations1 = [
-        # {"prompts_setting": "my_toxicity_random_small"},
-        # {"prompts_setting": "my_toxicity_random"},
+        # {"prompts_setting": "toxicity_random_small"},
+        # {"prompts_setting": "toxicity_random"},
 
-        # {"prompts_setting": "my_toxicity_toxic_small"},
-        # {"prompts_setting": "my_toxicity_toxic"},
+        # {"prompts_setting": "toxicity_toxic_small"},
+        {"prompts_setting": "toxicity_toxic"},
     ]
 
     variations2 = [

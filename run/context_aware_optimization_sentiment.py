@@ -60,19 +60,17 @@ if __name__ == "__main__":
     save_dir = "evaluation_outputs"
     top_k = 100
     top_p = 0.8
-    gamma = 0.0
-    thresh = 0
     method = "calib"
 
     variations1 = [
         {
-            "prompts_setting": "my_sentiment_positive",
+            "prompts_setting": "sentiment_positive",
             "prefix_setting":  "neg"
         },
-        {
-            "prompts_setting": "my_sentiment_negative",
-            "prefix_setting":  "pos"
-        },
+        # {
+        #    "prompts_setting": "sentiment_negative",
+        #    "prefix_setting":  "pos"
+        # },
     ]
 
     variations2 = [

@@ -90,8 +90,6 @@ def load_model(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    # parser.add_argument('--model_string', type=str,
-    #                    default="EleutherAI/gpt-j-6B")
     parser.add_argument('--base_model_string', type=str,
                         default="THUDM/chatglm3-6b")
     parser.add_argument('--bos_token_id', type=int, default=None)
