@@ -2,7 +2,7 @@
 
 This repository contains a code implementation of the paper "Calib-Gen:Controllable Text Generation via  Probability Calibration and Context-Aware Optimization" by Qirui Liu, and Yuanchao Liu. 
 
-![framework](./framework.svg)
+
 
 ## Setup/Installation
 
